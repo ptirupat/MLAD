@@ -184,8 +184,8 @@ def val_epoch(cfg, epoch, model, writer, use_cuda, args):
             outputs = out['final_output']
             initial = out['init_output']
 
-            outputs = nn.Softmax(dim=-1)(outputs)
-            initial = nn.Softmax(dim=-1)(initial)
+            outputs = nn.Sigmoid()(outputs)
+            initial = nn.Sigmoid()(initial)
 
             outputs = outputs.reshape(-1, num_classes)
             initial = initial.reshape(-1, num_classes)
