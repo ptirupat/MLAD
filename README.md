@@ -20,7 +20,7 @@ These are the models with 5 MLAD layers and give the best results on the corresp
 ### Features
 Download the features used for training the models from the following links
 
-MultiTHUMOS : https://drive.google.com/drive/folders/1txv4OyMd88ku3nzWAeYVhJ-9YR8NHE8w?usp=sharing
+MultiTHUMOS : https://drive.google.com/drive/folders/1w4bzPtj9UucC_altXOY-TOPKALvRq5Sx?usp=sharing
 
 
 ### TODO
